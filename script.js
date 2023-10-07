@@ -3,7 +3,7 @@ const urlForm = document.getElementById("urlForm");
         const urlElement = document.getElementById("url");
 
         // Add a submit event listener to the form
-        urlForm.addEventListener("submit", function(event) {
+        urlForm.addEventListener("submit", function(event) {//on submiting the form a event is registered this is anonymous function
             event.preventDefault(); // Prevent the form from submitting
 
             // Get the values from the input fields
